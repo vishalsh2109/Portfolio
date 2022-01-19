@@ -1,226 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>responsive personal portfolio website design tutorail</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Daksh sharma|Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle"></div>
+      <ul >
+        <li ><a class="hover-underline-animation" href="#">Home</a></li>
+        <li><a  class="hover-underline-animation" href="#bisi">Education</a></li>
+        <li><a  class="hover-underline-animation" href="#bisi">Skills</a></li>
+      </ul>
+    </header>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="index.css">
-
-</head>
-<body>
-    
-<!-- header section starts  -->
-
-<header>
-
-    <div class="user">
-        <img src="profile.jpg" alt="">
-        <h3 class="name">Daksh Sharma</h3>
-        <p class="post">front end developer</p>
+    <section class="start">
+      <div class="start_div im1">
+        <h2>Hello, I'm <br /> Daksh Sharma.</h2>
+        <h3>I'm a Student at ABES.</h3>
+        <a href="#about" class="btn">About Me</a>
     </div>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
-
-</header>
-
-<!-- header section ends -->
-
-<div id="menu" class="fas fa-bars"></div>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <h3>HI THERE !</h3>
-    <h1>I'M <span>Daksh Sharma</span></h1>
-    <p>I'm a Student at ABES</p>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"> <span>about</span> me </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> name : </span> Daksh Sharma </h3>
-        <h3> <span> age : </span> 20 </h3>
-        <h3> <span> qualification : </span> BMS </h3>
-        <h3> <span> post : </span> front end developer </h3>
-        <h3> <span> language : </span> hindi </h3>
-        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    <div class="im1">
+        <img src="./invoice_maker_4x-removebg-preview.png" alt="">
     </div>
-    <div style="font-size:2rem;
-    color:#fff;padding: 5rem 0;margin:6.5rem;">
-        <p>
-            I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best.This passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of my photos and graphics. I soon became the go-to person for any design.
-        </p>
-        <br>
-        <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.</p>
-    </div>
+    </section>
 
-</div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- education section starts  -->
-
-<section class="education" id="education">
-
-<h1 class="heading"> my <span>education</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2016</span>
-        <h3>CBSE 10th</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017</span>
-        <h3>CBSE 12th</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2018</span>
-        <h3>AKTU -Btech CSE</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> my <span>portfolio</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <img src="images/img1.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img2.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img3.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img4.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img5.jpg" alt="">
-    </div>
-
-    <div class="box">
-        <img src="images/img6.jpg" alt="">
-    </div>
-
-</div>
-
-</section>
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-<h1 class="heading"> <span>contact</span> me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">contact info</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i> abc@gmail.com </h3>
-            <h3> <i class="fas fa-phone"></i> +123-456-789</h3>
-            <h3> <i class="fas fa-phone"></i> +123-456-789 </h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit amet consectetur  </h3>
+    <section class="about" >
+      <div class="heading">
+        <h2 id="about">About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentbox im2">
+          <h3>I'm a learning developer</h3>
+          <p>
+            I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best.This passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of my photos and graphics. I soon became the go-to person for any design.<br /><br />
+            I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.
+          </p>
         </div>
+        <div class="im2">
+            <img src="./inst2.JPG" alt="Myimage">
+        </div>
+      </div>
+    </section>
+    <section class="Edu heading" id="bisi">
+       <section class="one"> <div class="heading" id="left">
+            <h2>Education</h2>
+            <div class="ski">
+              <h3>CBSE<br>
+          10-91.3%<br>
+          12-94.8%<br>
+          AKTU<br>
+          Btech CSE <br> (2020-24) <br></h3>
+          
+              
+          </div>
+            </section>
+        </div>
+        <section class="two">
+        <div class="heading" id="right">
+            <h2>Skills</h2>
+            <div class="ski">
+                <h3>C/C++ <br>
+            
+            HTML <br>
+            CSS <br>
+            Git/Github<br>
+            
+            Designing <br>
+            Video Editing</h3>
+                
+            </div>
+ </div>
+    </section>
+    </section>
 
-    </div>
-
-    <form action="">
-
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-
-    </form>
-
-</div>
-
-</section>
-
-<!-- contact section ends -->
-
-
-<!-- scroll top button  -->
-
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
-
-
-</body>
+    <footer>
+      <div class="copyright">
+        <p>&copy 2021 - Daksh sharma</p>
+      </div>
+  
+    </footer>
+  </body>
 </html>
