@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 section {
-  padding: 100px;
+  padding: 98px;
 }
 
 .start {
@@ -50,12 +50,9 @@ section {
   text-transform: uppercase;
   font-family: monospace;
   /* transition:all 0.5s ease-in ; */
-  
 }
-.btn:hover
-{
+.btn:hover{
   transition:all 0.5s ease-in ;
-
 }
 
 header {
@@ -74,7 +71,7 @@ header {
 header .logo {
   font-size: 29px;
   text-decoration: none;
-  color: black;
+  color: yellow;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -120,13 +117,13 @@ header ul li a {
   font-size: 30px;
 }
 .im2 {
-  min-width: 50%;
+  min-width: 52%;
 }
 img {
   max-width: 100%;
 }
 .heading {
-  width: 100%;
+  width: 98%;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -137,7 +134,7 @@ img {
   align-items: center;
 }
 .start_div {
-  margin-right: 200px;
+  margin-right: 180px;
   padding-left: 50px;
 }
 
@@ -150,7 +147,7 @@ img {
     display: flex;
     justify-content: space-around ;
     flex-direction: row;
-    background-color: black;
+    background-color: blue;
 
     padding: 0px;
 }
@@ -164,12 +161,11 @@ img {
     background:teal ; 
     color: white;
 }
-.two
-{
+.two{
     background:#c8d8e4 ;
 }
 section .one
-{width: 670px;}
+{width: 660px;}
 section .two
 {width: 675px;}
 
@@ -177,8 +173,7 @@ section .two
 
 /* Teal, grey, blue, bright white, dark grey and aqua marine */
 
-.copyright
-{
+.copyright{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -188,7 +183,7 @@ section .two
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: black;
+  color: red;
 }
 
 .hover-underline-animation:after {
@@ -196,7 +191,7 @@ section .two
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 4px;
   bottom: 0;
   left: 0;
   background-color: black;
