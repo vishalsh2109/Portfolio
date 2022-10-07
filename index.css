@@ -24,11 +24,11 @@ section {
 .start h2 {
   font-size: 3em;
   color: white;
-  font-weight: 400;
+  font-weight: 450;
   line-height: 1.5em;
 }
 .start h2 span {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 600;
 }
 .start h3 {
@@ -42,7 +42,7 @@ section {
   display: inline-block;
   color: grey;
   margin-top: 20px;
-  padding: 10px 30px;
+  padding: 15px 35px;
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px;
