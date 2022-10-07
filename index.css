@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 section {
-  padding: 98px;
+  padding: 100px;
 }
 
 .start {
@@ -75,7 +75,7 @@ header .logo {
   color: yellow;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 header ul {
   position: relative;
@@ -92,7 +92,7 @@ header ul li a {
   color: black;
   text-decoration: none;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
 }
 .about {
   background-color: whitesmoke;
@@ -111,7 +111,7 @@ header ul li a {
 }
 .contentbox h3 {
   font-size: 25px;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 .heading h2 {
   font-weight: 600;
@@ -141,7 +141,7 @@ img {
 
 #about {
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .Edu
 {
@@ -159,7 +159,7 @@ img {
     justify-content: center;
 }
 .one{
-    background:teal ; 
+    background:lightgreen ; 
     color: white;
 }
 .two{
@@ -184,7 +184,7 @@ section .two
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: red;
+  color: darkred;
 }
 
 .hover-underline-animation:after {
