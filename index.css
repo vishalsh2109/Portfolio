@@ -28,12 +28,12 @@ section {
   line-height: 1.5em;
 }
 .start h2 span {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 610;
 }
 .start h3 {
   font-size: 1.5em;
-  color: white;
+  color: Red;
   font-weight: 510;
 }
 .btn {
@@ -106,7 +106,7 @@ header ul li a {
   justify-content: space-between;
 }
 .contentbox {
-  padding-right: 30px;
+  padding-right: 30.5px;
   font-weight: 555;
 }
 .contentbox h3 {
